@@ -12,7 +12,12 @@ namespace Metodo
         {
             Metodos metodo = new Metodos();
             metodo.Cumprimentar();
-            metodo.Cumprimentar("Juarez");
+            Console.WriteLine();
+
+            Console.Write("Digite seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine();
+            metodo.Cumprimentar(nome);
         }
     }
 }
