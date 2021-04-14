@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoDelegate", "TipoDelegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodo", "Metodo\Metodo.csproj", "{546CAB68-C095-4C12-9954-28C4816C698F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodoConstrutor", "MetodoConstrutor\MetodoConstrutor.csproj", "{4CB0B262-B2F2-47F2-A493-47479D631031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesMetodosEstaticos", "ClassesMetodosEstaticos\ClassesMetodosEstaticos.csproj", "{D8FBB269-230A-4419-8E73-D698CF13877C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{546CAB68-C095-4C12-9954-28C4816C698F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546CAB68-C095-4C12-9954-28C4816C698F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546CAB68-C095-4C12-9954-28C4816C698F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB0B262-B2F2-47F2-A493-47479D631031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB0B262-B2F2-47F2-A493-47479D631031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB0B262-B2F2-47F2-A493-47479D631031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB0B262-B2F2-47F2-A493-47479D631031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FBB269-230A-4419-8E73-D698CF13877C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FBB269-230A-4419-8E73-D698CF13877C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FBB269-230A-4419-8E73-D698CF13877C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FBB269-230A-4419-8E73-D698CF13877C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
