@@ -16,7 +16,7 @@
             idade = 0;
         }
 
-        //Sobrecargas de método construtor:
+        //Sobrecarga(overloading) de método construtor:
 
         public Pessoa(string nome, string sobreNome)
         {
@@ -27,6 +27,7 @@
             idade = Idade();
         }
 
+        //Sobrecarga(overloading) de método construtor:
         public Pessoa(string nome, string sobreNome, int anoNascimento)
         {
             //Constutor padrão dessa classe, caso não seja preenchido
