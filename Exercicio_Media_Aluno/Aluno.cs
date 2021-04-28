@@ -28,9 +28,12 @@ namespace Exercicio_Media_Aluno
          * O método Media não precisa saber como a média é calculada,
          * apenas precisa do valor da média!
         */
-        public double Media()
+        public double Media
         {
-            return CalculoMedia();
+            get
+            {
+                return CalculoMedia();
+            }
         }
 
         public void InserirNotas()
