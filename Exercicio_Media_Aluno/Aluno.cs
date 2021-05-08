@@ -32,7 +32,7 @@ namespace Exercicio_Media_Aluno
         {
             get
             {
-                return CalculoMedia();
+                return CalcularMedia();
             }
         }
 
@@ -46,7 +46,7 @@ namespace Exercicio_Media_Aluno
         }
 
         //O cálculo da média fica à cargo desse método privado!
-        private double CalculoMedia()
+        private double CalcularMedia()
         {
             double total = 0;
             for (int i = 0; i < _notas.Length; i++)
